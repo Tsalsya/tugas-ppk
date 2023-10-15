@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siapa Tsalsya?</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style header and navigation menu */
+        header {
+            background-color: #5f9da8;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #c8ccce;
+            padding: 20px;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #293d46;
+        }
+
+        /* Style sections */
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #132043;
+        }
+
+        /* Style profil */
+        .profilContainer {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .profilContainer img {
+            width: 150px;
+            height: 200px;
+            border-radius: 10%;
+            margin-right: 20px;
+        }
+
+        .profilDetail tr {
+            list-style: none;
+            padding: 0;
+        }
+
+        .profilDetail td {
+            margin-bottom: 10px;
+        }
+
+        /* Style table */
+        .jadwalTable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .jadwalTable th,
+        .jadwalTable td {
+            border: 1px solid #4fa0c5;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .jadwalTable th {
+            background-color: #f2f2f2;
+        }
+
+        .jadwalTable tbody tr:nth-child(even) {
+            background-color: #9cbde9;
+        }
+
+        /* Style lingkaran */
+        .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 5px;
+            display: inline-block;
+        }
+
+        .beginner .circle {
+            background-color: rgb(99, 11, 11);
+        }
+
+        .intermediate .circle {
+            background-color: rgb(214, 214, 78);
+        }
+
+        .advance .circle {
+            background-color: rgb(6, 155, 6);
+        }
+
+        /* Style footer */
+        footer {
+            text-align: center;
+            background-color: #404c6e;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+        <br>
+        <h1>Tak Kenal Maka Taaruf:)</h1>
+    </header>
+
+    <!-- INI NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="#Biodata">BIODATA</a></li>
+            <li><a href="#pendidikan">PENDIDIKAN</a></li>
+            <li><a href="#jadwalKuliah">JADWAL KULIAH</a></li>
+            <li><a href="#Pengalaman">PENGALAMAN</a></li>
+            <li><a href="#keahlian">KEAHLIAN</a></li>
+            <li><a href="#informasiLain">INFORMASI LAIN</a></li>
+        </ul>
+    </nav>
+
+    <!-- INI CONTENT -->
+    <section id="Biodata">
+        <h2>Biodata</h2>
+        <div class="profilContainer">
+            <img src="Tsalsya foto 3x4.jpeg" alt="Foto Profil Saya">
+            <div class="profilDetail">
+                <table>
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td>:</td>
+                        <td>Tsalsya Ni'matul Aulia</td>
+                    </tr>
+                    <tr>
+                        <td>Tempat Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>Sidoarjo, 6 Juni 2003</td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td>Desa Putat Lor 005/002, Kecamatan Menganti, Kabupaten Gresik</td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td>Islam</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>:</td>
+                        <td>Belum Menikah</td>
+                    </tr>
+                    <tr>
+                        <td>Kewarganegaraan</td>
+                        <td>:</td>
+                        <td>WNI</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="home">
+        <h2>Sekilas tentang Tsalsya</h2><br>
+        <p>Nama saya Tsalsya Ni'matul Aulia, saat ini sedang menempuh pendidikan di perguruan tinggi negeri islam Maulana Malik Ibrahim Malang 
+            pada jurusan Matematika. Saya dikenal sebagai pribadi yang ceria dan mudah untuk bergaul. Saya memiliki ketertarikan pada dunia
+            dalam dunia seni juga Jurnalistik. Saya biasa mengisi waktu luang dengan menulis, menggambar, dan melukis. saya merasa dapat mengekspresikan
+            imajinasi dan kreatiivitas saya melalui hal tersebut. Selain itu, saya juga biasa mendengarkan musik sembari melakukan aktivitas di waktu luang saya.
+        </p>
+    </section>
+
+    <section id="pendidikan">
+        <h2>Pendidikan Formal</h2>
+        <ul>
+            <li>
+                <strong>Sekolah Dasar</strong>
+                <p>MI Roudhotul Muttaalimin</p>
+                <p>2009-2015</p>
+            </li><br>
+            <li>
+                <strong>Sekolah Menengah 1</strong>
+                <p>SMP YPM 1 TAMAN</p>
+                <p>2015-2018</p>
+                <p>Pondok Pesantren Al-ismailiyyah Sidoarjo</p>
+                <p>2015-2018</p>
+            </li><br>
+            <li>
+                <strong>Sekolah Menengah 2</strong>
+                <p>MA Sunan Kalijaga</p>
+                <p>2018-2021</p>
+                <p>Pondok Pesantren Tsuroyya Al-Falah Putri Kediri</p>
+                <p>2018-2021</p>
+            </li><br>
+            <li>
+                <strong>Perguruan Tinggi</strong>
+                <p>UIN Maulana Malik Ibrahim Malang</p>
+                <p>2021-sekarang</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="jadwalKuliah">
+        <h2>Jadwal Kuliah</h2>
+        <table class="jadwalTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Hari</th>
+                    <th>Pukul</th>
+                    <th>Kelas</th>
+                    <th>Ruang</th>
+                    <th>Kode</th>
+                    <th>Matakuliah</th>
+                    <th>SKS</th>
+                    <th>Dosen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Senin</td>
+                    <td>06.30 - 08.10</td>
+                    <td>C</td>
+                    <td>Ruang Meeting</td>
+                    <td>1761208</td>
+                    <td>PEMROGRAMAN KOMPUTER II</td>
+                    <td>2</td>
+                    <td>MOHAMMAD NAFIE JAUHARI,M.Si</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Senin</td>
+                    <td>09.00-10.40</td>
+                    <td>A</td>
+                    <td>Laboratorium Komputer Dasar</td>
+                    <td>1761404</td>
+                    <td>PRAKTIKUM PEMROGRAMAN KOMPUTER II</td>
+                    <td>1</td>
+                    <td>MOHAMMAD NAFIE JAUHARI,M.Si	</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Selasa</td>
+                    <td>06.30 - 09.00</td>
+                    <td>A</td>
+                    <td>B.206</td>
+                    <td>1761204</td>
+                    <td>ANALISIS NUMERIK I</td>
+                    <td>3</td>
+                    <td>JUHARI,M.Si</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rabu</td>
+                    <td>06.00 - 09.00</td>
+                    <td>A</td>
+                    <td>Ruang Diskusi</td>
+                    <td>1761212</td>
+                    <td>STATISTIKA MATEMATIKA</td>
+                    <td>3</td>
+                    <td>FACHRUR ROZI,M.Si</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Rabu</td>
+                    <td>09.00 - 10.40</td>
+                    <td>D</td>
+                    <td>Laboratorium Komputer Dasar</td>
+                    <td>1761406</td>
+                    <td>PRAKTIKUM PEMODELAN MATEMATIKA</td>
+                    <td>2</td>
+                    <td>Dr. USMAN PAGALAY,M.Si</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Kamis</td>
+                    <td>06.30 - 09.00</td>
+                    <td>C</td>
+                    <td>B.208</td>
+                    <td>1761303</td>
+                    <td>ANALISIS KOMPLEKS</td>
+                    <td>3</td>
+                    <td>Dr.HAIRUR RAHMAN,M.Si</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Kamis</td>
+                    <td>09.50 - 11.30</td>
+                    <td>B</td>
+                    <td>B.205</td>
+                    <td>1761216</td>
+                    <td>PEMODELAN MATEMATIKA</td>
+                    <td>2</td>
+                    <td>Dr. USMAN PAGALAY,M.Si</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Kamis</td>
+                    <td>14.00 - 15.40</td>
+                    <td>L</td>
+                    <td>Ruang Diskusi</td>
+                    <td>1761339</td>
+                    <td>KAPITA SELEKTA ALJABAR</td>
+                    <td>2</td>
+                    <td>MOHAMMAD NAFIE JAUHARI,M.Si</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Jumat</td>
+                    <td>06.30 - 09.00</td>
+                    <td>B</td>
+                    <td>B.208</td>
+                    <td>1761215</td>
+                    <td>GEOMETRI ANALITIK</td>
+                    <td>3</td>
+                    <td>Dr.HAIRUR RAHMAN,M.Si</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Jumat</td>
+                    <td>09.50 - 11.30</td>
+                    <td>A</td>
+                    <td>Ruang Meeting</td>
+                    <td>1761338</td>
+                    <td>ALJABAR LINIER LANJUT</td>
+                    <td>2</td>
+                    <td>DEWI ISMIARTI, M.Si</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="Pengalaman">
+        <h2>Pengalaman Organisasi</h2>
+        <br>
+        <ul>
+            <li>
+                <strong>HMPS "Integral" Matematika (2023)</strong>
+                <p>Sebagai Anggota Divisi Penerbitan dan Jurnalistik</p>
+            </li><br>
+        </ul>
+    </section>
+
+    <section id="keahlian">
+        <h2>Keahlian</h2>
+        <table class="keahlianTable">
+            <tr>
+                <td>Microsoft Office</td>
+                <td class="advance">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>canva</td>
+                <td class="advance">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td class="beginner">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Adobe Illustrator</td>
+                <td class="intermediate">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </td>
+            </tr>
+            </tr>
+        </table>
+    </section>
+
+    <section id="informasiLain">
+        <h2>Informasi Lain</h2>
+        <ul>
+            <li>
+                <strong>Instagram:</strong>
+                <a href="https://www.instagram.com/t.x0x.na" target="_blank">@t.x0x.na</a>
+            </li>
+            <li>
+                <strong>WhatsApp:</strong>
+                <a href="https://wa.me/6283110802248" target="_blank">+6283110802248</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- INI FOOTER -->
+    <footer>
+        <p>&copy; 2023 Tsalsyapunya</p>
+    </footer>
+</body>
+
+</html>
